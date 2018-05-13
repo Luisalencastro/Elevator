@@ -1,5 +1,5 @@
 import time
-floors = ['G','1','2','3','4','5']
+floors = ['0','1','2','3','4','5']
 uses = 0
 
 
@@ -61,3 +61,5 @@ def travel_to_floor():
         request_floor()
                 
 request_floor()
+
+#removed G for 0 due to data type clash 
